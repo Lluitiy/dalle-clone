@@ -20,7 +20,7 @@ const CreatePost = () => {
 			try {
 				setGeneratingImg(true);
 				const response = await fetch(
-					"https://dalle-clone-4kci.onrender.com",
+					"https://dalle-clone-4kci.onrender.com/api/v1/post",
 					{
 						method: "POST",
 						headers: { "Content-Type": "application/json" },
@@ -50,7 +50,7 @@ const CreatePost = () => {
 
 			try {
 				const response = await fetch(
-					"https://dalle-clone-4kci.onrender.com",
+					"https://dalle-clone-4kci.onrender.com/api/v1/post",
 					{
 						method: "POST",
 						headers: {
