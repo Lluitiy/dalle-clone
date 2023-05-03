@@ -16,6 +16,10 @@ const Loader = () => (
 				fill="currentFill"
 			/>
 		</svg>
+		<p>
+			Loading might take a while due to the usage of free backend server,
+			if it fails please try to reload the page few times.
+		</p>
 	</div>
 );
 
